@@ -1,1 +1,1 @@
-# Employee Management System in Java and SQL
+# Employee Information System in Java and SQLite

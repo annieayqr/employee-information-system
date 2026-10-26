@@ -1,8 +1,8 @@
-![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+![Java](https://img.shields.io/badge/Java-25-orange)
+![SQLite](https://img.shields.io/badge/SQLite-003B57)
 ![Status](https://img.shields.io/badge/status-in%20development-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Platform](https://img.shields.io/badge/platform-GitHub%20Codespaces-black?logo=github)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)
 
 # Employee Information System
 
@@ -45,7 +45,7 @@ Each employee record may contain:
 - Position
 - Salary
  
- 
+
 ## Project Structure
 
 ```text

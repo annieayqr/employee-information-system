@@ -46,6 +46,7 @@ Each employee record may contain:
 - Team
 - Position
 - Salary
+- Manager ID
  
 
 ## Project Structure

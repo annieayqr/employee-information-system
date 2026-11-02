@@ -16,6 +16,7 @@ A console-based Employee Information System built with Java and SQLite. The proj
 - [ ] Add a new employee
 - [ ] View all employees
 - [ ] Search for an employee
+- [ ] Modify employee information
 - [ ] Delete an employee
 
 ### Sorting

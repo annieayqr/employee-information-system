@@ -37,6 +37,7 @@ A console-based Employee Information System built with Java and SQLite. The proj
 Each employee record may contain:
 
 - Employee ID
+- Username
 - First name
 - Last name
 - Date of birth

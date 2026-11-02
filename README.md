@@ -45,7 +45,7 @@ Each employee record may contain:
 - Location
 - Team
 - Position
-- Manager ID
+- Manager ID (foreign key)
 - Salary
  
 

@@ -53,6 +53,7 @@ Each employee record may contain:
 employee-information-system/
 ├── src/
 │   ├── Main.java
+│   ├── Console.java
 │   ├── Employee.java
 │   └── Database.java
 ├── data/

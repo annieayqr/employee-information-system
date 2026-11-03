@@ -54,10 +54,11 @@ Each employee record may contain:
 ```text
 employee-information-system/
 ├── src/
-│   ├── Main.java
 │   ├── Console.java
+│   ├── Database.java
 │   ├── Employee.java
-│   └── Database.java
+│   ├── Main.java
+│   └── Operations.java
 ├── data/
 │   └── .gitkeep
 ├── pom.xml

@@ -1,6 +1,7 @@
 public class Employee {
 
     public enum Field {
+        ID,
         FIRST_NAME,
         LAST_NAME,
         LOCATION,
@@ -23,7 +24,7 @@ public class Employee {
     private double salary;
 
     public Employee(String id, String firstName, String lastName, String dateOfBirth, String joinDate, 
-                    String location, String team, String position, String managerid, double salary,) {
+                    String location, String team, String position, String managerid, double salary) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -32,6 +33,7 @@ public class Employee {
         this.location = location;
         this.team = team;
         this.position = position;
+        this.managerid = managerid;
         this.salary = salary;
     }
 
@@ -43,6 +45,6 @@ public class Employee {
     public String getLocation() { return location; }
     public String getTeam() { return team; }
     public String getPosition() { return position; }
-    public double getManagerID() { return managerid; }
+    public String getManagerID() { return managerid; }
     public double getSalary() { return salary; }
 }

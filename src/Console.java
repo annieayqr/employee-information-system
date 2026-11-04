@@ -19,10 +19,6 @@ public class Console {
                     insertInterface();
                     break;
 
-                case 1: // Add employee
-                    insertInterface();
-                    break;
-
                 case 2: // View employee
                     viewInterface();
                     break;

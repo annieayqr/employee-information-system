@@ -15,35 +15,29 @@ public class Console {
             scanner.nextLine();
 
             switch (choice) {
-                case 1:
-                    System.out.println("Add Employee");
+                case 1: // Add employee
+                    addEmployeeInterface();
                     break;
 
-                case 2:
-                    System.out.println("View Employees");
+                case 2: // View employee
                     break;
 
-                case 3:
-                    System.out.println("Search Employee");
+                case 3: // Search employee  
                     break;
 
-                case 4:
-                    System.out.println("Modify Employee");
+                case 4: // Modify employee
                     break;
 
-                case 5:
-                    System.out.println("Delete Employee");
+                case 5: // Delete employee
                     break;
 
-                case 6:
-                    System.out.println("Sort Employees");
+                case 6: // Sort employees
                     break;
 
-                case 7:
-                    System.out.println("Filter Employees");
+                case 7: // Filter employees
                     break;
 
-                case 0:
+                case 0: // Exit
                     System.out.println("Goodbye!");
                     break;
 

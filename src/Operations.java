@@ -1,6 +1,7 @@
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.sql.ResultSet;
 import java.util.List;
 
@@ -42,7 +43,6 @@ public class Operations {
     }
     
     public static void insert(Employee employee) {
-
         String sql = """
             INSERT INTO employees (
                 id,
@@ -124,4 +124,22 @@ public class Operations {
     public static void sort(Field field, Order order) {}
 
     public static void filter(Field field, Operator operator, String value) {}
+
+    public static int countAll() {
+        String sql = "SELECT COUNT(*) FROM employees"
+
+        try ( 
+            Connection conn = Database.connect();
+            Statement stmt = conn.prepareStatement(sql);
+            ResultSet result = stmt.executeQuery()
+        ) {
+            if (result.next()) {
+                return result.getInt(1);
+            }
+        } catch (SQLException e) {
+            System.out.println("Error counting employees: " + e.getMessage());
+        }
+
+        return 0;
+    }
 }

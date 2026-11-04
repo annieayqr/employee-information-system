@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Console {
+
+    private static final int PAGE_SIZE = 25;
     
     private static final Scanner scanner = new Scanner(System.in);
 
@@ -19,12 +21,13 @@ public class Console {
                     insertInterface();
                     break;
 
+
                 case 2: // View employee
                     viewInterface();
                     break;
 
                 case 3: // View all employees
-                    // viewAllInterface();
+                    viewAllInterface();
                     break;
 
                 case 4: // Update employee
@@ -145,5 +148,15 @@ public class Console {
         System.out.println("Salary: " + employee.getSalary());
         System.out.println("Date of Birth: " + employee.getDateOfBirth());
         System.out.println("Join Date: " + employee.getJoinDate());
+    }
+
+    public static void viewAllInterface() {
+        
+    }
+
+
+    public static int getPageCount() {
+        int totalRecords = Operations.countAll();
+        return (int) Math.ceil((double) totalRecords / PAGE_SIZE);
     }
 }

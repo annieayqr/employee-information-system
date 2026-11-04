@@ -6,30 +6,23 @@
 
 # Employee Information System
 
-A console-based Employee Information System built with Java and SQLite. The project is designed to practise Java object-oriented programming, SQL database integration, and persistent employee record management.
+A console-based Employee Information System built with Java and SQLite. The project is designed to practise Java object-oriented programming, JDBC database integration, SQL operations, and persistent employee record management.
 
 
 ## Features
 
 ### Employee Records
 
-- [ ] Add a new employee
+- [x] Add a new employee
+- [x] View an employee by ID
 - [ ] View all employees
-- [ ] Search for an employee
-- [ ] Modify employee information
+- [ ] Update employee information
 - [ ] Delete an employee
 
-### Sorting
+### Sorting & Filtering
 
-- [ ] Sort employees by name
-- [ ] Sort employees by salary
-- [ ] Sort employees by join date
-
-### Filtering
-
-- [ ] Filter employees by team
-- [ ] Filter employees by position
-- [ ] Filter employees by location
+- [ ] Sort employees by selected field in ascending or descending order
+- [ ] Filter employees by selected field and comparison operator
 
 
 ## Employee Information

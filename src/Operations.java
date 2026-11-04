@@ -115,7 +115,9 @@ public class Operations {
         return null;
     }
     
-    public static List<Employee> viewAll() {}
+    public static List<Employee> viewAll() {
+
+    }
 
     public static void update(String id, Field field, String value) {}
 

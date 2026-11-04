@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Scanner;
 
 public class Console {
@@ -151,7 +152,14 @@ public class Console {
     }
 
     public static void viewAllInterface() {
-        
+        int currentPage = 1;
+        int totalPages = getPageCount();
+
+        if (totalPages == 0) {
+            System.out.println("No employees found")
+        }
+
+        // Continue coding..
     }
 
 
